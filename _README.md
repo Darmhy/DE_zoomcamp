@@ -1,6 +1,17 @@
 # Data Engineering Zoomcamp
 
-## Syllabus
+
+<p align="center">
+  <a href="https://airtable.com/shr6oVXeQvSI5HuWD"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+</p>
+
+- Register in [DataTalks.Club's Slack](https://datatalks.club/slack.html)
+- Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel
+- Join the [course Telegram channel with announcements](https://t.me/dezoomcamp)
+- The videos are published on [DataTalks.Club's YouTube channel](https://www.youtube.com/c/DataTalksClub) in [the course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+- [Frequently asked technical questions](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing)
+
+Syllabus
 
 * [Module 1: Introduction & Prerequisites](#module-1-introduction--prerequisites)
 * [Module 2: Workflow Orchestration](#module-2-workflow-orchestration)
@@ -10,9 +21,32 @@
 * [Module 6: Streaming](#module-6-streaming)
 * [Module 7: Project](#module-7-project)
 
-***
+## Taking the course
 
-### [Module 1: Introduction & Prerequisites](1_basics_n_setup)
+### 2024 Cohort
+
+* **Start**: 15 January 2024 (Monday) at 17:00 CET
+* **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
+* [Cohort folder](cohorts/2024/) with homeworks and deadlines 
+
+
+### Self-paced mode
+
+All the materials of the course are freely available, so that you
+can take the course at your own pace
+
+* Follow the suggested syllabus (see below) week by week
+* You don't need to fill in the registration form. Just start watching the videos and join Slack
+* Check [FAQ](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing) if you have problems
+* If you can't find a solution to your problem in FAQ, ask for help in Slack
+
+
+## Syllabus
+
+> **Note:** NYC TLC changed the format of the data we use to parquet. But you can still access
+> the csv files [here](https://github.com/DataTalksClub/nyc-tlc-data).
+
+### [Module 1: Introduction & Prerequisites](week_1_basics_n_setup)
 
 * Course overview
 * Introduction to GCP
@@ -22,20 +56,20 @@
 * Preparing the environment for the course
 * Homework
 
-[More details](1_basics_n_setup)
+[More details](week_1_basics_n_setup)
 
 
-### [Module 2: Workflow Orchestration](2_workflow_orchestration/)
+### [Module 2: Workflow Orchestration](week_2_workflow_orchestration/)
 
 * Data Lake
 * Workflow orchestration
 * Workflow orchestration with Mage
 * Homework
 
-[More details](2_workflow_orchestration/)
+[More details](week_2_workflow_orchestration/)
 
 
-### [Module 3: Data Warehouse](3_data_warehouse)
+### [Module 3: Data Warehouse](week_3_data_warehouse)
 
 
 * Data Warehouse
@@ -49,7 +83,7 @@
 [More details](week_3_data_warehouse)
 
 
-### [Module 4: Analytics engineering](4_analytics_engineering/)
+### [Module 4: Analytics engineering](week_4_analytics_engineering/)
 
 * Basics of analytics engineering
 * dbt (data build tool)
@@ -61,10 +95,10 @@
 * Visualizing the data with google data studio and metabase
 
 
-[More details](4_analytics_engineering)
+[More details](week_4_analytics_engineering)
 
 
-### [Module 5: Batch processing](5_batch_processing)
+### [Module 5: Batch processing](week_5_batch_processing)
 
 * Batch processing
 * What is Spark
@@ -72,26 +106,26 @@
 * Spark SQL
 * Internals: GroupBy and joins
 
-[More details](5_batch_processing)
+[More details](week_5_batch_processing)
 
-### [Module 6: Streaming](6_stream_processing)
+### [Module 6: Streaming](week_6_stream_processing)
 
 * Introduction to Kafka
 * Schemas (avro)
 * Kafka Streams
 * Kafka Connect and KSQL
 
-[More details](6_stream_processing)
+[More details](week_6_stream_processing)
 
 
-### [Module 7: Project](7_project)
+### [Module 7: Project](week_7_project)
 
 Putting everything we learned to practice
 
 * Week 7 and 8: working on your project
 * Week 9: reviewing your peers
 
-[More details](7_project)
+[More details](week_7_project)
 
 ### Course UI
 
@@ -154,3 +188,32 @@ For this course, you'll need to have the following software installed on your co
 * Terraform
 
 See [Module 1](week_1_basics_n_setup) for more details about installing these tools
+
+
+
+
+## Supporters and partners
+
+Thanks to the course sponsors for making it possible to run this course
+
+<p align="center">
+  <a href="https://mage.ai/">
+    <img height="120" src="images/mage.svg">
+  </a>
+</p>
+
+
+<p align="center">
+  <a href="https://dlthub.com/">
+    <img height="90" src="images/dlthub.png">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://risingwave.com/">
+    <img height="90" src="images/rising-wave.png">
+  </a>
+</p>
+
+Do you want to support our course and our community? Please reach out to [alexey@datatalks.club](alexey@datatalks.club)
+
