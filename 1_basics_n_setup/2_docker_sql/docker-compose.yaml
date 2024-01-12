@@ -17,3 +17,10 @@ services:
     ports:
       - "8080:80"
     
+docker run -it \
+  -e POSTGRES_USER="root" \
+  -e POSTGRES_PASSWORD="root" \
+  -e POSTGRES_DB="ny_taxi" \
+  -v /Users/damilola.oyebade/Documents/Data\ Engineering/data_eng_zoomcamp/1_basics_n_setup/2_docker_sql/ny_taxi_postgres_data:/var/lib/postgresql/data \
+  -p 5432:5432 postgres:13
+
